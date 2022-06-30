@@ -73,7 +73,7 @@ const Ingame = ({ acidlogic, socketIO }) => {
             setMyColor({color: "red"});
             setanotherColor({color: "blue"});
         }
-        else if(myscore == otherscore)
+        else if(myscore === otherscore)
         {
             setMyColor({color: "black"});
             setanotherColor({color: "black"});
@@ -90,7 +90,7 @@ const Ingame = ({ acidlogic, socketIO }) => {
             setMyColor({color: "blue"});
             setanotherColor({color: "red"});
         }
-        else if(otherscore == myscore)
+        else if(otherscore === myscore)
         {
             setMyColor({color: "black"});
             setanotherColor({color: "black"});
