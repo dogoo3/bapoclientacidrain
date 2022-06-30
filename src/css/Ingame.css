@@ -1,0 +1,28 @@
+canvas
+{
+    background-color: #eee;
+    display: block;
+    margin: auto;
+}*{
+    box-sizing: border-box;
+}
+
+#ingamecanvas
+{
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100);
+    margin-top: 30px;
+}
+
+#wordinputfield
+{
+    font-size: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#label_timer
+{
+    margin-right: 30px;
+    margin-left: 30px;
+}
