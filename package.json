@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://gleeful-tapioca-2379c9.netlify.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
