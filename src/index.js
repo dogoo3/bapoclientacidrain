@@ -7,9 +7,9 @@ import AcidLogic from "./service/logic";
 import SocketIO from "./service/socket";
 
 // const baseURL = process.env.REACT_APP_BASE_URL;
-const httpClient = new HttpClient("https://acidrainmogi.herokuapp.com/:7000");
+const httpClient = new HttpClient("https://acidrainmogi.herokuapp.com/");
 const acidlogic = new AcidLogic(httpClient);
-const socketIO = new SocketIO("https://acidrainmogi.herokuapp.com/:7000");
+const socketIO = new SocketIO("https://acidrainmogi.herokuapp.com/");
 
 socketIO.CheckError();
 
