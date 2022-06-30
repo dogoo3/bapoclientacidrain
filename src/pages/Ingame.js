@@ -8,7 +8,7 @@ const Ingame = ({ acidlogic, socketIO }) => {
     const [words, updateWords] = useState([]); // 단어 갱신시 hook을 통해 리렌더링
     const canvas = useRef(); // 캔버스의 레퍼런스?를 따오는 변수인 듯
 
-    const [timer, updatetimer] = useState(`남은 시간 : 90`);
+    const [timer, updatetimer] = useState(`남은 시간 : 60`);
 
     // 팝업창과 관련한 useState
     const [popupOpen_win, winPopupOpen] = useState(false);
